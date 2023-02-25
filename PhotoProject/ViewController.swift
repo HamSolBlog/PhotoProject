@@ -61,6 +61,7 @@ class ViewController: UIViewController
         self.present(piker, animated: true)
     }
     
+    // View 새로고침
     @objc func refresh()
     {
         self.collectionView.reloadData()
